@@ -2,6 +2,8 @@
 
 ### 26. Decode String #important 
 
+[Solution](/Solutions/leetcode_top75.java)
+
 **Parsing Integer From Characters**
 
 ```java
