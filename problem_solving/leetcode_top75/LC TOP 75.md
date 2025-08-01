@@ -66,4 +66,8 @@ eventmp.next = null;
 
 [Solution](/problem_solving/leetcode_top75/Solutions/31_reverse_linkedlist.java)
 
+## 32. Maximum Twin Sum Of A Linked List
+
+[Solution](/problem_solving/leetcode_top75/Solutions/32_max_twin_sum.java)
+
 
