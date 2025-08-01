@@ -51,3 +51,15 @@ q.isEmpty();
 ### 29. Delete Linked List Middle Node
 
 [Solution](/problem_solving/leetcode_top75/Solutions/29_linkedlist_middle_node.java)
+
+### 30. Delete Linked List Middle Node
+
+[Solution](/problem_solving/leetcode_top75/Solutions/30_odd_even_nodes.java)
+
+Avoid Cyclic Reference 
+
+```java
+eventmp.next = null;
+```
+
+
