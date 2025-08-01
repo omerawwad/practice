@@ -27,3 +27,27 @@ StringBuilder sb2 = new StringBuilder();
 
 sb1.append(sb2);
 ```
+
+### 27.  Number Of Recent Call
+
+[Solution](/problem_solving/leetcode_top75/Solutions/27_number_of_recent_calls.java)
+
+```java
+for(;s<e && (t-ts[s])>3000;)s++; // brackets enhance speed
+```
+
+### 28. Data2 Senate
+
+[Solution](/problem_solving/leetcode_top75/Solutions/28_data2_senate.java)
+
+```java
+Queue<Integer> q = new LinkedList<>();
+q.offer(2);
+q.peek();
+q.poll();
+q.isEmpty();
+```
+
+### 29. Delete Linked List Middle Node
+
+[Solution](/problem_solving/leetcode_top75/Solutions/29_linkedlist_middle_node.java)
