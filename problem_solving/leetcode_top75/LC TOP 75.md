@@ -80,3 +80,18 @@ return Math.max(r, l) + 1;
 ```
 
 [Solution](/problem_solving/leetcode_top75/Solutions/33_max_depth_tree.java)
+
+## 33. Leaf Similar Tree #important 
+
+**Passing List reference**
+
+```java
+private void seq(TreeNode root, List<Integer> s){
+	if(root==null) return;
+	if(root.left==null && root.right==null) s.add(root.val);
+	seq(root.left, s);
+	seq(root.right, s);
+}
+```
+
+[Solution](/problem_solving/leetcode_top75/Solutions/34_leef_similar_tree.java)
