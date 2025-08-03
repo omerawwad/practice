@@ -70,4 +70,13 @@ eventmp.next = null;
 
 [Solution](/problem_solving/leetcode_top75/Solutions/32_max_twin_sum.java)
 
+## 33. Maximum Depth Of Tree #important 
 
+```java
+if(root == null) return 0;
+int r = maxDepth(root.right); // cummulate answer
+int l = maxDepth(root.left);
+return Math.max(r, l) + 1;
+```
+
+[Solution](/problem_solving/leetcode_top75/Solutions/33_max_depth_tree.java)
