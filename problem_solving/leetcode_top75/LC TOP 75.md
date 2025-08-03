@@ -81,7 +81,7 @@ return Math.max(r, l) + 1;
 
 [Solution](/problem_solving/leetcode_top75/Solutions/33_max_depth_tree.java)
 
-## 33. Leaf Similar Tree #important 
+## 34. Leaf Similar Tree #important 
 
 **Passing List reference**
 
@@ -95,3 +95,9 @@ private void seq(TreeNode root, List<Integer> s){
 ```
 
 [Solution](/problem_solving/leetcode_top75/Solutions/34_leef_similar_tree.java)
+
+## 35.Count Good Nodes #important 
+
+**Recursion passing data upward & downward**
+
+[Solution](/problem_solving/leetcode_top75/Solutions/35_count_good_nodes.java)
